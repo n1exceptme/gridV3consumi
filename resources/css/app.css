@@ -1,0 +1,47 @@
+.icon-user {
+    background-image: url(../images/user.png) !important;
+}
+
+.icon-user-add {
+    background-image: url(../images/user_add.gif) !important;
+}
+
+.icon-save {
+    background-image: url(../images/save.gif) !important;
+}
+
+.icon-reset {
+    background-image: url(../images/stop.png) !important;
+}
+
+.icon-grid {
+    background-image: url(../images/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(../images/add.png) !important;
+}
+
+.icon-delete {
+    background-image: url(../images/delete.png) !important;
+}
+
+.icon-search {
+    background-image: url(../images/search.png) !important;
+}
+
+.icon-edit {
+    background-image: url(../images/edit.png) !important;
+}
+
+.icon-grafico {
+    background-image: url(../images/chart_bar.png) !important;
+}
+
+.icon-maps {
+    background-image: url(../images/maps.png) !important;
+}
+
+.icon-scheda {
+    background-image: url(../images/info.png) !important;
+}

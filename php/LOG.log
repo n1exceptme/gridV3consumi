@@ -1,0 +1,2174 @@
+2012-10-24 11:19:46 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:19:47 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,200
+2012-10-24 11:19:47 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:20:27 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:20:28 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:20:28 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:22:46 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:22:47 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:22:47 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+2012-10-24 11:23:00 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+2012-10-24 11:23:02 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 200,200
+2012-10-24 11:23:02 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+2012-10-24 11:23:08 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale ASC LIMIT 0,200
+2012-10-24 11:23:09 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale ASC LIMIT 200,200
+2012-10-24 11:23:09 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale ASC LIMIT 0,200
+2012-10-24 11:23:12 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale DESC LIMIT 0,200
+2012-10-24 11:23:13 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale DESC LIMIT 200,200
+2012-10-24 11:23:13 - SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY numero_fiscale DESC LIMIT 0,200
+-----------2012-10-24 11:25:00-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+-----------2012-10-24 11:25:01-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,200
+-----------2012-10-24 11:25:01-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+-----------2012-10-24 11:27:32-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:27:33-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 200,200
+ total : 500
+ start : 200
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:27:33-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:27:50-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:27:52-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:27:52-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:32:47-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:32:49-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,200
+ total : 500
+ start : 200
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 11:32:50-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:32-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:34-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,200
+ total : 500
+ start : 200
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:34-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:49-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:50-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:50-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:51-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:52-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:44:52-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,200
+ total : 500
+ start : 0
+ count : 200
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:47:59-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:48:01-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:58:34-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:58:54-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 12:59:13-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:01:23-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:06:41-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:10:37-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:12:29-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:12:44-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:15:31-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 13:15:43-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  AND pod LIKE '%227012%' ORDER BY pod DESC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND pod LIKE '%227012%'
+ qs :  AND pod LIKE '%227012%'
+
+-----------2012-10-24 13:18:12-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  AND pod LIKE '%7255%' ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7255%'
+ qs :  AND pod LIKE '%7255%'
+
+-----------2012-10-24 13:18:13-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  AND pod LIKE '%72550%' ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%72550%'
+ qs :  AND pod LIKE '%72550%'
+
+-----------2012-10-24 13:18:31-----------
+ queryString : SELECT * FROM consumi5 WHERE  0 = 0  AND pod LIKE '%550%' ORDER BY pod ASC LIMIT 0,50
+ total : 500
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%550%'
+ qs :  AND pod LIKE '%550%'
+
+-----------2012-10-24 13:21:58-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-24 13:24:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%75%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%75%'
+ qs :  AND pod LIKE '%75%'
+
+-----------2012-10-24 13:26:01-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%75%' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%75%' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%75%' AND mese_riferimento < 4
+
+-----------2012-10-24 13:26:25-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND mese_riferimento < 4
+
+-----------2012-10-24 13:28:52-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+
+-----------2012-10-24 13:28:58-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND mese_riferimento < 4
+
+-----------2012-10-24 13:29:14-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+
+-----------2012-10-24 13:29:17-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND tipo_documento = 'Array' AND mese_riferimento < 4
+
+-----------2012-10-24 13:29:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%' AND mese_riferimento < 4
+ qs :  AND pod LIKE '%755%' AND mese_riferimento < 4
+
+-----------2012-10-24 14:45:35-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 14:45:59-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-24 14:46:03-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 14:46:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 2 ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 2
+ qs :  AND mese_riferimento < 2
+
+-----------2012-10-24 14:48:17-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 2 ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 2
+ qs :  AND mese_riferimento < 2
+
+-----------2012-10-24 14:48:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 2 ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 2
+ qs :  AND mese_riferimento < 2
+
+-----------2012-10-24 14:48:50-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 2 ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 2
+ qs :  AND mese_riferimento < 2
+
+-----------2012-10-24 14:51:56-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' AND mese_riferimento < 2 ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND tipo_documento = 'Array' AND mese_riferimento < 2
+ qs :  AND tipo_documento = 'Array' AND mese_riferimento < 2
+
+-----------2012-10-24 15:03:17-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:03:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:04:07-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:04:09-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:05:28-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:05:29-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-24 15:05:47-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%'
+ qs :  AND pod LIKE '%755%'
+
+-----------2012-10-24 17:51:42-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%755%' ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%755%'
+ qs :  AND pod LIKE '%755%'
+
+-----------2012-10-25 09:59:26-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 09:59:28-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 09:59:35-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 10:23:55-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,501
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 10:24:56-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 10:25:28-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 2 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND mese_riferimento < 2
+ qs :  AND mese_riferimento < 2
+
+-----------2012-10-25 10:25:42-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND mese_riferimento < 2 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND mese_riferimento < 2
+ qs :  AND pod LIKE '%7550%' AND mese_riferimento < 2
+
+-----------2012-10-25 10:26:37-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 10:26:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 10:35:29-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+ qs :  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+
+-----------2012-10-25 10:35:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 10:55:15-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 10:57:30-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 10:58:33-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 10:59:36-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 10:59:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+ qs :  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:01:09-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+ qs :  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:04:05-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 11:04:08-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+ qs :  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:05:45-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 11:05:48-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+ qs :  AND pod LIKE '%7550%' AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:06:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7550%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7550%'
+ qs :  AND pod LIKE '%7550%'
+
+-----------2012-10-25 11:06:14-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:06:21-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:06:22-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:06:24-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:06:33-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:07:47-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:07:53-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:10:57-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:11:37-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:12:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:14:03-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:15:08-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:16:57-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:17:00-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'Array' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'Array'
+ qs :  AND tipo_documento = 'Array'
+
+-----------2012-10-25 11:47:15-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:56:09-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:56:16-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:56:39-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 11:56:54-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-25 12:27:50-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY fornitore ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : fornitore
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-25 12:27:52-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY fornitore DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : fornitore
+ sortDirection : DESC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-25 12:43:33-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 12:43:41-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND tipo_documento = 'R'
+ qs :  AND tipo_documento = 'R'
+
+-----------2012-10-25 13:01:47-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento IN ('C','R') ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND tipo_documento IN ('C','R')
+ qs :  AND tipo_documento IN ('C','R')
+
+-----------2012-10-25 13:02:01-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%0634%' AND tipo_documento IN ('C','R') ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND pod LIKE '%0634%' AND tipo_documento IN ('C','R')
+ qs :  AND pod LIKE '%0634%' AND tipo_documento IN ('C','R')
+
+-----------2012-10-25 13:08:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY mese_consumi ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : mese_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 13:09:54-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 13:10:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND data_emissione = '2011-07-13' ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND data_emissione = '2011-07-13'
+ qs :  AND data_emissione = '2011-07-13'
+
+-----------2012-10-25 13:10:34-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND data_emissione = '2011-07-13' AND totale_fattura_netto < 50 ORDER BY pod DESC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND data_emissione = '2011-07-13' AND totale_fattura_netto < 50
+ qs :  AND data_emissione = '2011-07-13' AND totale_fattura_netto < 50
+
+-----------2012-10-25 13:16:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 13:17:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-25 13:18:06-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8
+
+-----------2012-10-25 13:18:08-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93
+
+-----------2012-10-25 13:18:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260
+
+-----------2012-10-25 13:18:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260.1 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260.1
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260.1
+
+-----------2012-10-25 13:18:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260
+
+-----------2012-10-25 13:18:48-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.1 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.1
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.1
+
+-----------2012-10-25 13:18:48-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.15 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.15
+ qs :  AND pod LIKE '%7544%' AND totale_fattura_netto = 8.93 AND consumo_f1 = 12260 AND totale_parte_a = 1.15
+
+-----------2012-10-25 16:30:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 16:52:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 16:53:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 16:54:34-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 16:55:41-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND data_emissione = '2009-07-08' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND data_emissione = '2009-07-08'
+ qs :  AND data_emissione = '2009-07-08'
+
+-----------2012-10-25 17:00:42-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:02:05-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:02:31-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:02:51-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:03:35-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:05:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:08:55-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:25:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-25 17:26:15-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND totale_fattura > 0 ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND totale_fattura > 0
+ qs :  AND totale_fattura > 0
+
+-----------2012-10-25 17:34:20-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:28:16-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:29:36-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:30:48-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:34:23-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:39:14-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 09:43:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:03:28-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:08:51-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:26:02-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:26:10-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:26:12-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:26:25-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:30:54-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17403
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:31:54-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:31:55-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:32:03-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%74%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%74%'
+ qs :  AND pod LIKE '%74%'
+
+-----------2012-10-26 10:32:04-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%74%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%74%'
+ qs :  AND pod LIKE '%74%'
+
+-----------2012-10-26 10:32:07-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7%'
+ qs :  AND pod LIKE '%7%'
+
+-----------2012-10-26 10:32:10-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:16-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:16-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:25-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod DESC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:27-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:33-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:34-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:39-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:32:40-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%'
+ qs :  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%'
+
+-----------2012-10-26 10:32:51-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%'
+ qs :  AND pod LIKE '%7544%' AND numero_fiscale LIKE '%%'
+
+-----------2012-10-26 10:32:52-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%' AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%'
+ qs :  AND pod LIKE '%7544%' AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%'
+
+-----------2012-10-26 10:35:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%'
+ qs :  AND fornitore LIKE '%%' AND numero_fiscale LIKE '%%'
+
+-----------2012-10-26 10:35:35-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND numero_fiscale LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND numero_fiscale LIKE '%%'
+ qs :  AND numero_fiscale LIKE '%%'
+
+-----------2012-10-26 10:35:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:35:40-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:35:42-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:35:53-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:35:58-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '% %' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '% %'
+ qs :  AND pod LIKE '% %'
+
+-----------2012-10-26 10:36:04-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:36:09-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod DESC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:36:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:36:44-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:37:08-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:37:17-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:37:18-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:37:41-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:40:47-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:40:59-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:41:00-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:41:23-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:50:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:50:47-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' AND fornitore LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%' AND fornitore LIKE '%%'
+ qs :  AND pod LIKE '%217544%' AND fornitore LIKE '%%'
+
+-----------2012-10-26 10:50:56-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' AND fornitore LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%' AND fornitore LIKE '%%'
+ qs :  AND pod LIKE '%217544%' AND fornitore LIKE '%%'
+
+-----------2012-10-26 10:51:03-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%217544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%217544%'
+ qs :  AND pod LIKE '%217544%'
+
+-----------2012-10-26 10:55:21-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:55:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 10:55:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 10:55:46-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:55:59-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:56:07-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:56:08-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 10:56:11-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:09:52-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:10:38-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:12:57-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:12:59-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND fornitore LIKE '%%'
+ qs :  AND fornitore LIKE '%%'
+
+-----------2012-10-26 11:17:13-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:17:22-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:18:32-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:18:49-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:18:51-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:18:52-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:22:36-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:22:44-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:22:45-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:22:48-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:22:49-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 11:32:55-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:33:03-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-10-26 11:33:04-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%%'
+ qs :  AND pod LIKE '%%'
+
+-----------2012-10-26 11:33:14-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%7544%' ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%7544%'
+ qs :  AND pod LIKE '%7544%'
+
+-----------2012-10-26 12:37:06-----------
+ queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+ total : 17404
+ start : 0
+ count : 50
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
