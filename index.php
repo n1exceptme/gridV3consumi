@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <title>GridV2 - Consumi</title>
+    <title>GridV3 - Consumi</title>
 
     <!-- ExtJS relativo	
 	<link rel="stylesheet" type="text/css" href="../extjs/extjs/resources/css/ext-all-gray.css"/>

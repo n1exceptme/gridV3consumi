@@ -1,0 +1,18 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="10">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="873" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\index.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="405" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\grid_consumi.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="603" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\model\Consumo.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="639" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\store\Consumi.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="630" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\view\Viewport.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="405" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\view\consumi\Dashboard.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="423" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\view\consumi\ConsumiGrid.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="414" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\view\chart\ConsumiChart.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="495" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\app\controller\ControllerConsumi.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="711" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\php\elencaConsumi.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="909" startPos="0" endPos="0" selMode="0" lang="Testo normale" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3consumi\php\LOG.log" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

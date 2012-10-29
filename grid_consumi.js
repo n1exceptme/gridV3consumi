@@ -12,6 +12,13 @@ Ext.Loader.setConfig({enabled: true});
 
 Ext.Loader.setPath('Ext.ux', '../ux/');
 
+Ext.require([
+    'Ext.grid.*',
+    'Ext.data.*',
+    'Ext.util.*'
+]);
+
+
 Ext.application({
     name: 'ExtPOD',
 

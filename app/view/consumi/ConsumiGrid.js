@@ -1,7 +1,8 @@
 var filtersCfg = {
     ftype: 'filters',
     encode: true,
-	local: false
+	local: false,
+	updateBuffer: 1000
 };
 
 
@@ -10,7 +11,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
     alias : 'widget.ConsumiGrid',
 
     requires: [
-		'Ext.ux.grid.FiltersFeature'
+		'Ext.ux.grid.FiltersFeature',
+		'Ext.grid.PagingScroller'
 	],
 	
 	columnLines: true,
@@ -22,8 +24,17 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
     title : 'Consumi',
     store: 'Consumi',
 	
+	// Use a PagingGridScroller (this is interchangeable with a PagingToolbar)
 	verticalScrollerType: 'paginggridscroller',
-	invalidateScrollerOnRefresh: false,
+	// do not reset the scrollbar when the view refreshs
+	invalidateScrollerOnRefresh: true,
+	// infinite scrolling does not support selection
+	disableSelection: true,   
+	loadMask: true,
+	viewConfig: {
+		trackOver: false
+	},	
+	
 
 	width: 600,
 	height: 600,	
@@ -42,7 +53,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					[
 					{
 					xtype: 'rownumberer',
-					width: 35,
+					width: 50,
 					align: 'left',
 					locked: true,
 					sortable: false
@@ -358,7 +369,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
                     xtype: 'toolbar',
                     dock: 'bottom',
                     displayInfo: true,
-                    store: 'Products',
+                    store: 'Consumi',
                     items: [
                         {
                             xtype: 'tbfill'
