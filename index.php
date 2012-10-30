@@ -25,6 +25,20 @@
     <!-- Example -->
     <script type="text/javascript" src="grid_consumi.js"></script>
 	
+    <style type="text/css" media="screen">
+        .task .x-grid-cell-inner {
+            padding-left: 15px;
+        }
+        .x-grid-row-summary .x-grid-cell-inner {
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .icon-grid {
+            background: url(../shared/icons/fam/grid.png) no-repeat 0 -1px;
+        }
+    </style>	
+	
+	
 </head>
 
 <body>

@@ -1,71 +1,153 @@
-var filtersCfg = {
-    ftype: 'filters',
-    encode: true,
-	local: false,
-	updateBuffer: 1000
-};
+Ext.Loader.setConfig({enabled: true});
 
-var showSummary = true;
+Ext.Loader.setPath('Ext.ux', '../ux/');
+Ext.require([
+    'Ext.grid.*',
+    'Ext.data.*',
+    'Ext.util.*',
+    'Ext.grid.PagingScroller',
+    'Ext.ux.form.SearchField'
+]);
 
-Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
-    extend: 'Ext.grid.Panel',
-    alias : 'widget.ConsumiGrid',
+Ext.onReady(function(){
+    Ext.define('ForumThread', {
+        extend: 'Ext.data.Model',
+        fields: [
+			{name: 'id',type: 'int'},
+			{name: 'fornitore',type: 'string'},
+			{name: 'tipo_documento',type: 'string'},
+			{name: 'pod',type: 'string'},
+			{name: 'numero_fiscale',type: 'string'},
+			{name: 'data_emissione',type: 'date'},
+			{name: 'anno_riferimento',type: 'int'},
+			{name: 'mese_riferimento',type: 'int'},
+			{name: 'anno_consumi',type: 'int'},
+			{name: 'mese_consumi',type: 'int'},
+			{name: 'totale_fattura_netto',type: 'float'},
+			{name: 'importo_iva',type: 'float'},
+			{name: 'totale_fattura',type: 'float'},
+			{name: 'consumo_f1',type: 'float'},
+			{name: 'consumo_f2',type: 'float'},
+			{name: 'consumo_f3',type: 'float'},
+			{name: 'consumo_fascia_peak',type: 'float'},
+			{name: 'consumo_fascia_off_peak',type: 'float'},
+			{name: 'consumo_f0',type: 'float'},
+			{name: 'importo_totale_attiva_f1',type: 'float'},
+			{name: 'importo_totale_attiva_f2',type: 'float'},
+			{name: 'importo_totale_attiva_f3',type: 'float'},
+			{name: 'importo_totale_attiva_peak',type: 'float'},
+			{name: 'importo_totale_attiva_off_peak',type: 'float'},
+			{name: 'importo_totale_attiva_f0',type: 'float'},
+			{name: 'importo_totale_reattiva',type: 'float'},
+			{name: 'totale_distribuzione',type: 'float'},
+			{name: 'totale_parte_a',type: 'float'},
+			{name: 'imposte_erariali',type: 'float'},
+			{name: 'totale_dispacciamento',type: 'float'}		
+        ],
+        idProperty: 'id'
+    });
 
-    requires: [
-		'Ext.ux.grid.FiltersFeature',
-		'Ext.grid.PagingScroller'
-	],
-	
-	columnLines: true,
-	
-    iconCls: 'icon-grid',
+    // create the Data Store
+    var store = Ext.create('Ext.data.Store', {
+        id: 'store',
+        model: 'ForumThread',
+        // allow the grid to interact with the paging scroller by buffering
+        buffered: true,
+        
+        // The topics-remote.php script appears to be hardcoded to use 50, and ignores this parameter, so we
+        // are forced to use 50 here instead of a possibly more efficient value.
+        pageSize: 50,
 
-	features: [
-		filtersCfg,
-		{
-            id: 'group',
-            ftype: 'groupingsummary',
-            groupHeaderTpl: '{name}',
-			startCollapsed:true,
-            hideGroupedHeader: false,
-            enableGroupingMenu: true
-        }
-	],
-	
-    title : 'Consumi',
-    store: 'Consumi',
-	
-	// Use a PagingGridScroller (this is interchangeable with a PagingToolbar)
-    // verticalScrollerType: 'paginggridscroller',
-    // verticalScroller: {
-        // numFromEdge: 5,
-        // trailingBufferZone: 10,
-        // leadingBufferZone: 20
-    // },
-	// do not reset the scrollbar when the view refreshs
-	//invalidateScrollerOnRefresh: false,
-	// infinite scrolling does not support selection
-	//disableSelection: true,   
-	//loadMask: true,
-	//viewConfig: {
-	//	trackOver: false
-	//},	
+        // This web service seems slow, so keep lots of data in the pipeline ahead!
+        leadingBufferZone: 1000,
+		encode: true,
+		
+        proxy: {
+            // load using script tags for cross domain, if the data in on the same domain as
+            // this page, an HttpProxy would be better
+            type: 'ajax',
+			api: {
+				read: 'php/elencaConsumi2.php',
+				create: 'php/nuovoConsumo.php', 
+				update: 'php/aggiornaConsumo.php',
+				destroy: 'php/eliminaConsumo.php'
+			},
+			reader: {
+				type: 'json',
+				root: 'consumi',
+				successProperty: 'success',
+				totalProperty: 'count'
+			},
+			writer: {
+				type: 'json',
+				writeAllFields: true,
+				encode: true,
+				root: 'consumi'
+			},			
+            // sends single sort as multi parameter
+            simpleSortMode: true,
+            
+            // Parameter name to send filtering information in
+            filterParam: 'query',
 
-	width: 600,
-	height: 600,	
+            // The PHP script just use query=<whatever>
+            encodeFilters: function(filters) {
+                return filters[0].value;
+            }
+        },
+        listeners: {
+            totalcountchange: onStoreSizeChange
+        },
+		sorters : {
+			property : 'pod',
+			direction : 'ASC'
+		},		
+        remoteFilter: true,
+        autoLoad: true
+    });
+    
+    function onStoreSizeChange() {
+        grid.down('#status').update({count: store.getTotalCount()});
+    }
 
-	formatt_numeri_float: function(val) {
-		if (val > 0) {
-			return '<span style="color:blue;">' + val.toFixed(2) + '</span>';
-		} else if (val <= 0) {
-			return '<span style="color:red;">' + val.toFixed(2) + '</span>';
-		}
-		return val;
-	},
-	
-	initComponent: function() {
-		this.columns = 
-					[			
+    var grid = Ext.create('Ext.grid.Panel', {
+        width: 700,
+        height: 600,
+        title: 'ExtJS.com - Browse Forums',
+        store: store,
+        loadMask: true,
+        dockedItems: [{
+            dock: 'top',
+            xtype: 'toolbar',
+            items: [{
+                width: 400,
+                fieldLabel: 'Search',
+                labelWidth: 50,
+                xtype: 'searchfield',
+                store: store
+            }, '->', {
+                xtype: 'component',
+                itemId: 'status',
+                tpl: 'Matching threads: {count}',
+                style: 'margin-right:5px'
+            }]
+        }],
+        selModel: {
+            pruneRemoved: false
+        },
+        multiSelect: true,
+        viewConfig: {
+            trackOver: false
+        },
+        // grid columns
+        columns:[
+					{
+					xtype: 'rownumberer',
+					width: 50,
+					align: 'left',
+					locked: true,
+					sortable: false
+					},
 					{
 					text: 'POD', 
 					dataIndex: 'pod',   
@@ -75,11 +157,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					sortable: true,
 					filter: {
 						type: 'string'
-						},
-					summaryType: 'count',
-					summaryRenderer: function(value, summaryData, dataIndex) {
-						return ((value === 0 || value > 1) ? '(' + value + ' Tasks)' : '(1 Task)');
-						}						
+					}					
 					},
 					{
 					text: 'Fornitore', 
@@ -130,7 +208,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:80, 
 					align:'center', 
 					sortable: true,
-					filter: true
+					filter: true				
 					},
 					{
 					text: 'Mese <br>Consumi', 
@@ -160,9 +238,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 						//value:1,    // 0 is false, 1 is true
 						//active:true // turn on the filter
 						},				
-					renderer: Ext.util.Format.dateRenderer('d/m/Y'),
-					summaryType: 'max',
-					summaryRenderer: Ext.util.Format.dateRenderer('m/d/Y')
+					renderer: Ext.util.Format.dateRenderer('d/m/Y')
 					},
 					{ 
 					text: 'Totale Fattura<br>Netto',
@@ -376,54 +452,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					renderer : this.formatt_numeri_float,
 					filter: true
 					}						
-		];	
-
-		this.dockedItems = [
-                {
-                    xtype: 'toolbar',
-                    dock: 'bottom',
-                    displayInfo: true,
-                    store: 'Consumi',
-                    items: [
-						{
-							tooltip: 'Mostra/Nasconde record di sintesi',
-							text: 'Record riassuntivo',
-							handler: function(){
-								var view = Ext.ComponentQuery.query('ConsumiGrid')[0].getView();
-								showSummary = !showSummary;
-								view.getFeature('group').toggleSummaryRow(showSummary);
-								view.refresh();
-							}
-						},				
-                        {
-                            xtype: 'tbfill'
-                        },
-                        {
-                            xtype: 'button',
-                            itemId: 'filterData',
-                            text: 'Filtri Attivi',
-                            tooltip: 'Visualizza Filtri Attivi'
-                        },
-                        {
-                            xtype: 'button',
-                            itemId: 'clearFilter',
-                            text: 'Resetta Filtri'
-                        }
-                    ]
-                }		
-		];
-		
-		this.listeners = [ {
-				sortchange: function(){
-					//var grid = Ext.ComponentQuery.query('ConsumiGrid')[0];
-					getConsumiStore().load();
-				}
-				}
-		];	
-		
-		// trigger the data store load
-		//ConsumiStore.guaranteeRange(0, 199);
-		
-		this.callParent(arguments);
-	}
+		],
+        renderTo: Ext.getBody()
+    });
 });

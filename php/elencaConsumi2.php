@@ -14,13 +14,13 @@ $sortDirection = $sort[0]->direction;
 
 
 
-// GridFilters sends filters as an Array if not json encoded
-// if (is_array($filters)) {
-    // $encoded = false;
-// } else {
-    // $encoded = true;
-    // $filters = json_decode($filters);
-// }
+//GridFilters sends filters as an Array if not json encoded
+if (is_array($filters)) {
+    $encoded = false;
+} else {
+    $encoded = true;
+    $filters = json_decode($filters);
+}
 $filters = json_decode($filters);
 
 $where = ' 0 = 0 ';
@@ -32,7 +32,7 @@ if (is_array($filters)) {
         $filter = $filters[$i];
 
         // assign filter data (location depends if encoded or not)
-/*         if ($encoded) {
+         if ($encoded) {
             $field = $filter->field;
             $value = $filter->value;
             $compare = isset($filter->comparison) ? $filter->comparison : null;
@@ -42,7 +42,7 @@ if (is_array($filters)) {
             $value = $filter['data']['value'];
             $compare = isset($filter['data']['comparison']) ? $filter['data']['comparison'] : null;
             $filterType = $filter['data']['type'];
-        } */
+        } 
 		$field = $filter->field;
 		$value = $filter->value;
 		$compare = isset($filter->comparison) ? $filter->comparison : null;
@@ -82,9 +82,9 @@ if (is_array($filters)) {
     $where .= $qs;
 }
 
-	$queryString = "SELECT * FROM consumi5 WHERE ".$where;
-	$queryString .= " ORDER BY ".$sortProperty." ".$sortDirection;
-	$queryString .= " LIMIT ".$start.",".$count;
+	$queryString = "SELECT * FROM consumi6 \nWHERE ".$where;
+	$queryString .= " \nORDER BY ".$sortProperty." ".$sortDirection;
+	$queryString .= " \nLIMIT ".$start.",".$count;
 
 	//print_r($queryString);
 	
@@ -98,7 +98,7 @@ if (is_array($filters)) {
 	}
 
 	//rileva il "numero" di record contenuti nel db
-	$queryTotal = mysql_query('SELECT COUNT(*) as num FROM consumi5') or die(mysql_error());
+	$queryTotal = mysql_query('SELECT COUNT(*) as num FROM consumi6') or die(mysql_error());
 	$row = mysql_fetch_assoc($queryTotal);
 	$total = $row['num'];
 	

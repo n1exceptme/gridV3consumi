@@ -16,11 +16,12 @@ Ext.define('ExtPOD.store.Consumi', {
         property : 'pod',
         direction : 'ASC'
     },
+	
+	groupField: 'numero_fiscale',
 
 	// allow the grid to interact with the paging scroller by buffering
-	buffered: true,
-	//leadingBufferZone: 300,
-	pageSize: 200,
+	//buffered: true,
+	//pageSize: 50,
 
     proxy: {
         type: 'ajax',

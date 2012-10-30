@@ -70,7 +70,7 @@ if (is_array($filters)) {
 
 	$queryString = "SELECT * FROM consumi6 WHERE ".$where;
 	$queryString .= " ORDER BY ".$sortProperty." ".$sortDirection;
-	$queryString .= " LIMIT ".$start.",".$count;
+	$queryString .= " LIMIT 1000"/*.$start.",".$count*/;
 
 	//print_r($queryString);
 	

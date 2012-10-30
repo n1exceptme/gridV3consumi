@@ -15,6 +15,8 @@ Ext.define('ExtPOD.view.Viewport', {
     initComponent: function() {
         var me = this;
         
+		Ext.tip.QuickTipManager.init();
+		
         Ext.apply(me, {
 		
             items: [
